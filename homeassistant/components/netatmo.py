@@ -27,7 +27,7 @@ DOMAIN = 'netatmo'
 NETATMO_AUTH = None
 DEFAULT_DISCOVERY = True
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=10)
+MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=5)
 MIN_TIME_BETWEEN_EVENT_UPDATES = timedelta(seconds=10)
 
 CONFIG_SCHEMA = vol.Schema({
